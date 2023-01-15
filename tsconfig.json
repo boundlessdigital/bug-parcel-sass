@@ -1,0 +1,40 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "cdk.out",
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "outDir": "dist",
+        "lib": [
+            "ES2021",
+            "DOM"
+        ],
+        "target": "ES2019",
+        "allowUnreachableCode": false,
+        "declaration": true,
+        "declarationDir": "./types",
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "exactOptionalPropertyTypes": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "jsx": "react-jsx",
+        "module": "ES2022",
+        "moduleResolution": "NodeNext",
+        "noErrorTruncation": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "strict": true,
+    }
+}
