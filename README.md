@@ -1,1 +1,4 @@
-# bug-parcel-sass
+To reproduce bug:
+
+yarn
+yarn start
